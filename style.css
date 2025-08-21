@@ -3,6 +3,8 @@ button {
   border-radius: 5px;
   padding: 10px;
   border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
 }
 #btn-increase {
   background-color: black;
@@ -15,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #494d5f;
 }
 
 .container {
@@ -26,6 +29,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 0;
+  color: white;
 }
 
 #counter-nbr {
