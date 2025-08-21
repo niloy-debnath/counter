@@ -1,0 +1,36 @@
+button {
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#btn-increase {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#counter-nbr {
+  color: rgb(13, 234, 68);
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
